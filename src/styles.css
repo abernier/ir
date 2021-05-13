@@ -1,0 +1,39 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  font-size: 5vmin;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  line-height: 0.7;
+  margin-top: 0;
+  margin-bottom: 0.25em;
+}
+
+canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw !important;
+  height: 100vh !important;
+  object-fit: fill;
+  z-index: -1;
+  opacity: 0.3;
+}
+
+input {
+  font: inherit;
+}
+
+strong.ir {
+  font-size: 200%;
+  cursor: copy;
+}
